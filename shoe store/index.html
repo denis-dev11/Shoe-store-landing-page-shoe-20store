@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+<nav>
+  <a href="#"><img class="logo" src="Pictures/Shoes logo.jpg" alt="Logo"></a>
+
+  <ul class="nav-left">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+
+  <!-- hamburger -->
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- mobile menu -->
+  <ul class="nav-links" id="mobileMenu">
+    <img class="mobile-logo" src="Pictures/Shoes logo.jpg" alt="Logo">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+    <button class="close-btn" id="closeBtn">&times;</button>
+  </ul>
+</nav>
+
+
+    <!-- The css grid and flexbox elements -->
+    <main class="main">
+      <div class="container">
+  <img src="Pictures/main image.png" alt="Main image" class="left" />
+  <img src="Pictures/season sales.jpg" alt="Season sale" />
+  <img src="Pictures/long distance running shoes.jpeg" alt="Running shoes" />
+</div>
+
+
+      <!-- The section for the flext box -->
+
+      <section class="flexbox-section">
+        <div class="flexbox-container">
+          <div class="shoe-card">
+            <h2>Winter Collection</h2>
+            <img
+              src="Pictures/brown winter boots.jpg"
+              alt="brown winter boots"
+            />
+            <button>
+              <span>Buy Now</span>
+            </button>
+          </div>
+        </div>
+        <div class="flexbox-container">
+          <div class="shoe-card">
+            <h2>Spring Collection</h2>
+            <img
+              src="Pictures/spring collection.jpg"
+              alt="spring collection shoes"
+            />
+            <button>
+              <span>Buy Now</span>
+            </button>
+          </div>
+        </div>
+        <div class="flexbox-container">
+          <div class="shoe-card">
+            <h2>Summer Collection</h2>
+            <img
+              src="Pictures/hoka trail running yellow&grey.jpg"
+              alt="summer collection shoes"
+            />
+            <button>
+              <span>Buy Now</span>
+            </button>
+          </div>
+        </div>
+        <div class="flexbox-container">
+          <div class="shoe-card">
+            <h2>Winter Shoes</h2>
+            <img src="Pictures/brown winter boots.jpg" alt="" />
+            <button>
+              <span>Buy Now</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- The first section carousel -->
+
+      <div class="wrapper">
+        <h2>New Products</h2>
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel">
+          <li class="card">
+            <div class="img">
+              <img
+                src="Pictures/hoka shoe iRunFar sale.jpeg"
+                alt="hoka shoe iRunFar"
+                draggable="false"
+              />
+            </div>
+            <p style="color: lightblue">$247.00</p>
+            <h2>hoka shoe iRunFar</h2>
+            <span>4+ colors</span>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img
+                src="Pictures/lightweight running shoes.jpeg"
+                alt="lightweight running shoes"
+                draggable="false"
+              />
+            </div>
+            <p style="color: lightblue">$98.00</p>
+            <h2>lightweight running shoes</h2>
+            <span>3+ colors</span>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img
+                src="Pictures/hoka-one-one-speedgoat-5-shoes-red-black-aw22.jpg"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <p style="color: lightblue">$143.74</p>
+            <h2>hoka-one-one-speedgoat-5</h2>
+            <span>5+ colors</span>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img
+                src="Pictures/hoka trail shoes.jpg"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <p style="color: lightblue">$221.45</p>
+            <h2>hoka trail</h2>
+            <span>5+ colors</span>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img
+                src="Pictures/hoka trail running.jpg"
+                alt="hoka trail running"
+                draggable="false"
+              />
+            </div>
+            <p style="color: lightblue">$100.50</p>
+            <h2>hoka trail running</h2>
+            <span>3+ colors</span>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img
+                src="Pictures/hoka trail running yellow&grey.jpg"
+                alt="hoka trail running yellow&grey"
+                draggable="false"
+              />
+            </div>
+            <p style="color: lightblue">$200.00</p>
+            <h2>hoka trail running yellow&grey</h2>
+            <span>Special Edition </span>
+          </li>
+        </ul>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+      </div>
+    </main>
+
+    <footer class="footer">
+  <!-- Left: Logo + description -->
+  <div class="footer-left">
+    <img class="logo" src="Pictures/Shoes logo.jpg" alt="website logo" />
+    <p>Discover the best and most comfortable shoes for every occasion. Quality and style guaranteed.</p>
+  </div>
+
+  <!-- Center: Helpful links -->
+  <div class="footer-center">
+    <div class="footer-links">
+      <h3>HELPFUL LINKS</h3>
+      <a href="#">Contact Us</a>
+      <a href="#">Support</a>
+      <a href="#">About</a>
+    </div>
+    <div class="footer-links">
+      <h3>SHOPPING</h3>
+      <a href="#">Reviews</a>
+      <a href="#">Returns</a>
+      <a href="#">Shipping</a>
+    </div>
+  </div>
+
+  <!-- Right: Contact -->
+  <div class="footer-right">
+    <div class="footer-links">
+      <h3>GET IN TOUCH</h3>
+      <a href="tel:410772534">410-772-534</a>
+      <a href="mailto:support@shoeswonder.com">support@shoeswonder.com</a>
+    </div>
+  </div>
+</footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
